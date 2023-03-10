@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <h1>Upload Excel</h1>
+  <form action="{% url 'upload_excel' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="excel_file">
+    <br><br>
+    <input type="submit" value="提交">
+  </form>
+</html>
+  

@@ -54,7 +54,7 @@ ROOT_URLCONF = 'dg1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['dg1//myApp//migrations//temps'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
